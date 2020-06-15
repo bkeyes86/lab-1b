@@ -1,1 +1,73 @@
+<!DOCTYPE html>
+<html>
 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Lab 1b</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: rgb(250, 120,152);
+        }
+        h1 {
+            background-color: rgb(250,18,56);
+        }
+    </style>
+
+    </head>
+
+    <body>
+        <header>
+            <h1 style="background-color: rgb(25,180,56);">Gist</h1>
+
+
+
+
+        </header>
+       
+        <main>
+            <section>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <div>  <img src="images/thegist.png" alt="definition of gist"/></div>
+
+                <article>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</article>
+            <ul>
+                <li><p>What is your Nickname?</p></li>
+                <li><p>What state are you in?</p></li>
+                <li><p>What is your favorite restaurant?</p></li>
+                <li><p>What's your dream car?</p></li>
+            </ul>
+            </section>
+
+        </main>
+
+
+        <footer>
+            <p><strong>created Gist</strong></p>
+        </footer>
+
+
+        <script>
+            var yourNickname = prompt('What is your Nickname?');
+            console.log('Nickname is: ' + yourNickname);
+
+            var yourState = prompt('What state are you in?');
+            console.log('State is: ' + yourState);
+            
+            var favoriteRestaurant = prompt('What is your favorite restaurant?');
+            console.log('favorite restaurant is: ' + favoriteRestaurant);
+            
+            var dreamCar = prompt('What\'s your dream car?');
+            console.log('Dream car is: ' + dreamCar);
+
+            alert('Hey ' + yourNickname + 'from ' + yourState + ',' + 'you like food from, ' +favoriteRestaurant+ 'and you want to eat that in a ' + dreamCar);
+
+        </script>
+        
+        <script src="js/app.js"></script>
+    </body>
+
+</html>

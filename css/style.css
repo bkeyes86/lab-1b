@@ -1,0 +1,21 @@
+h1 {
+    font-size: 100px;
+    color: red;
+    background-color: whitesmoke;
+    border-radius: 1000px;
+    padding: 60px;
+}
+
+body {
+    width: 960px;
+    margin: auto;
+    background-color: rgb(214, 25, 173);
+}
+
+main {
+    background-color: gold;
+    clear: both;
+}
+a {
+    text-decoration: none;
+}
